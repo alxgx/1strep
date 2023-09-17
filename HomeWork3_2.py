@@ -3,7 +3,7 @@
 # b = float(input('2:  '))
 # c = float(input('3:  '))
 # x = (a + b + c)/3
-
+#
 userlist = input('введите числа через пробел: ').split()
 print('вы ввели:', userlist)
 user_list_numbers = list(map(float, userlist))
