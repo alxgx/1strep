@@ -1,13 +1,12 @@
+userstring = input('введите 12345 прописью:   ')
+print('вы ввели:', userstring)
 # заменить пробелы тире 1
-userstring = input('enter 12345 by words')
-print(userstring)
 devidedstr = userstring.split(' ')
-# print(devidedstr)
-print('-'.join(devidedstr))
-
+print('это первый способ:','-'.join(devidedstr))
 
 # заменить пробелы тире 2
-
+newuserstring=userstring.replace(' ','-')
+print ('это второй способ:', newuserstring)
 
 
 
