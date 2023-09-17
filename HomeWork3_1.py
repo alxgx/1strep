@@ -5,6 +5,7 @@ devidedstr = userstring.split(' ')
 # print(devidedstr)
 print('-'.join(devidedstr))
 
+
 # заменить пробелы тире 2
 
 
