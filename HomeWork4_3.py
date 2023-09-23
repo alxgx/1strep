@@ -3,8 +3,8 @@
 # для этих ключей будут браться с клавиатуры
 
 n = int(input('how many users?'))
-res_dict = {i:
-            {input('name:'): input('email:')}
-            for i in range (n)
-            }
-print(res_dict)
+n_dict = {i:
+            {'name:': input('name:'), 'email:': input('email:')}
+            for i in  range(n)
+          }
+print(n_dict)
