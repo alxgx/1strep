@@ -3,4 +3,5 @@
 # буквы в текст введенный с клавиатуры
 
 text = input('enter some text: \n')
-print({i: text.count(i) for i in text})
+result_dict = {i: text.count(i) for i in text}
+print(result_dict)
