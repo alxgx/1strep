@@ -10,9 +10,7 @@ def f_morse(text):
 
     morse_text = ""
     for letter in text:
-        # if letter not in morse_text: morse_text += "#"
-        # else:
-        morse_text += morse.get(letter)
+       morse_text += morse.get(letter)
 
     print(morse_text)
 
